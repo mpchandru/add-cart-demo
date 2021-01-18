@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cart Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css" />
+  <!--<link rel="stylesheet" href="css/layout.css" />-->
+  <link rel="stylesheet" href="css/grid.css" />
+  <script  src="./js/data.js"></script>
+  <script  src="./js/script.js"></script>
+  
+  <header class="header">
+            <span class="cartTitle">All Items</span>
+            <span class="cartCount"><span id="totalItemQty">(0)</span> items added to cart</span>
+			
+  </header>
+  <div class="countContainer"><img src="images/cart.png"><div class="cartBag"><span id="totalItemQty"></span></div></div>
+  
+<div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                    <!----------------------------->
+                    <div class="row" id="itemContainer" name="itemContainer">
+					</div>
+                    <!----------------------------->
+                </div>
+
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="detailContainer">
+                        <div class="cartSummary">
+                            <table>
+                                <tr>
+                                    <th>Items</th>
+                                    <th>Qty</th>
+                                    <th>Price</th>
+                                </tr>
+							<tbody id="cartContainer"></tbody>	
+                            </table>
+                        </div>                    
+                    <div class="cartDetails">
+                        <table>
+						<tr>
+						<th>Total</th>
+						<th></th>
+						</tr>
+                            <tr>
+                                <td>Items&nbsp;<span id="totalItemQty">(0)</span></td>
+                                <td><span id="totalItemPrice">0</span></td>
+                            </tr>
+                            <tr>
+                                <td>Discount</td>
+                                <td><span id="discount">0</span></td>
+                            </tr>
+                            <!--<tr>
+                                <td>Type Discount</td>
+                                <td>$0</td>
+                            </tr>-->
+                            <tr style="background: #eee;">
+                                <td>Order Total</td>
+                                <td><span id="rTotal">0<span></td>
+                            </tr>
+                        </table>
+						
+                    </div>
+					</div>
+                </div>
+            </div>
+        </div>
+		<footer class="footer"><p>@Copy Right</p></footer>
+		<script>
+		window.document.onload = listItems();        
+		</script>
+
+
+</head>
+<body>
+</body>
+</html>

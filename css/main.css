@@ -1,0 +1,245 @@
+@font-face {
+  font-family: lemon-milk;
+  src: url(./fonts/lemon-milk/LemonMilk.otf);
+}
+@font-face {
+  font-family: BoldItalic;
+  src: url(./fonts/OpenSans-BoldItalic.ttf);
+}
+body {
+	    margin: 0;
+    font-family: BoldItalic;
+}
+.header {
+    margin: 0;
+    padding: 0 10px;
+    border: 1px solid #E0E4CC;
+    position: relative;
+    text-align: center;
+	font-family: lemon-milk;
+	    background: #3f51b5;
+}
+
+.countContainer {
+	width: 50px;
+	position: absolute;
+	top: 10px;
+	right: 15px;
+}
+.countContainer img {
+	width: 30px;
+}
+.cartBag {
+	position: absolute;
+    left: 23px;
+    top: -4px;
+    text-align: center;
+    border-radius: 7px;
+    width: 18px;
+    height: 18px;
+    background-color: #f1d922;
+    border: 1px solid #fff;
+    font-weight: 400;
+    color: #000;
+    line-height: 16px;
+    font-size: 12px;
+}
+.footer {
+	background: #3f51b5;
+	margin-top: 30px;
+	padding: 10px 0;
+}
+.footer p {
+	margin: 0;
+    text-align: center;
+    color: #fff;
+}
+span.cartTitle {
+    
+    line-height: 45px;
+    position: relative;
+    z-index: 1;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 800;
+
+}
+
+span.cartCount {
+	    margin: 0;
+    padding: 4px 10px;
+    background: #4caf50;
+    width: 200px;
+    text-align: center;
+    color: #fff;
+	font-size: 20px;
+    text-transform: capitalize;
+    line-height: 42px;
+    border-radius: 4px;
+}
+.item {
+	    padding: 0px;
+		    margin: 0px;
+    text-align: left;
+    position: relative;
+    margin-top: 20px;
+    background: #fff;
+    border: 1px solid #E0E4CC;;
+}
+.productImage {
+	text-align: center;
+	padding: 30px;
+}
+.productImage img {
+	width: 125px;
+	height: 130px;
+}
+.productDescription {
+	    background: #eee;
+    padding: 10px;
+}
+.productname {
+	    text-align: left;
+    border-top: 1px solid #E0E4CC;
+    margin-top: 10px;
+    padding-top: 9px;
+    padding-bottom: 0px;
+}
+.productname p {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+	}
+.product-price-and-shipping {
+	padding-top: 9px;
+}
+.buttonContainer {
+	float: right;
+}
+.buttonContainer button {	
+    border: 1px solid #24a0ed;
+    background: #fff;
+    padding: 1px 6px;
+    border-radius: 3px;
+    font-weight: 600;
+    color: #24a0ed;
+    cursor: pointer;
+	font-family: BoldItalic;
+	    font-size: 12px;
+
+}
+.price {
+    color: #262626;
+    font-size: 12px;
+    font-weight: 700;
+}
+.regular-price {
+	color: #999;
+    margin-left: 7px;
+    text-decoration: line-through;
+    text-decoration-color: #ef0a0a;
+    text-decoration-thickness: 2px;
+    font-size: 12px;
+}
+.sale_product {
+    background: #4caf50;
+    color: #fff !important;
+    font-size: 11px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    min-width: 50px;
+    padding: 0 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.sale_product {
+        position: absolute;
+    top: 18px;
+    left: 0px;
+    z-index: 2;
+}
+table tr {
+	padding: 3px 0;
+}
+.cartDetails h4 {
+	
+}
+.cartDetails table {
+	width: 100%;
+    padding: 20px;
+    margin-top: 15px;
+    border: 1px solid #E0E4CC;
+}
+.cartDetails table tr td {
+	padding: 6px;
+}
+.cartSummary {
+	padding-bottom: 10px;
+    border-top: 1px solid #E0E4CC;
+    border-bottom: 1px solid #E0E4CC;
+}
+.cartSummary table {
+	width: 100%;
+}
+.cartSummary table tr td, table tr th {
+	    text-align: left;
+    padding: 6px;
+    border-bottom: 1px solid #E0E4CC;
+	font-size: 12px;
+}
+.countText {
+	width: 29px;
+    border: 1px solid #E0E4CC;
+	    text-align: center;
+}
+.incrementBtn, .decrementBtn {
+	
+	background: #fff;
+    border: 0;
+}
+.imgContainer {
+	display: flex;
+	    border: 1px solid #E0E4CC;
+    padding: 5px 0;
+	width: 100%;
+}
+.imgContainer img {
+	    width: 30px;
+    padding: 0px 10px;
+}
+.itemName, .itemRemove {
+	padding: 2px;
+    float: right;
+	font-size: 10px;
+}
+.detailContainer {
+	padding: 10px;
+    margin: 10px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
